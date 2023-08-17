@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tec-Toe</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li>Tic-Tac-Toe</li>
+        </ul>
+    </nav>
+    <h1>
+        Welcome!! Let's Play
+    </h1>
+    
+
+ <div class="gamecontainer">
+
+
+
+    <div class="container">
+        <div class="box bt bl"><span class="boxtext"></span></div> 
+         <div class="box bt"><span class="boxtext"></span></div> 
+         <div class="box bt br"><span class="boxtext"></span></div> 
+         <div class="box bl"><span class="boxtext"></span></div> 
+         <div class="box"><span class="boxtext"></span></div> 
+         <div class="box br"><span class="boxtext"></span></div> 
+         <div class="box bb bl"><span class="boxtext"></span></div> 
+         <div class="box bb"><span class="boxtext"></span></div> 
+         <div class="box bb br"><span class="boxtext"></span></div> 
+       
+         <div class="winanime" style="display: flex; justify-content: center;">
+           <lottie-player src="https://lottie.host/9630df1b-2bcd-487f-a6ab-f6d9fef43e05/aJt0yYj2eg.json"
+           
+           background="#282828" speed="1" style="width: 300px; height: 300px;" direction="1" mode='normal' loop autoplay>
+           </lottie-player>
+         </div> 
+
+        </div>
+ 
+   <div class="gameinfo">
+
+
+    <div class="won">
+    </div>
+
+
+        <button onClick="reset()" class="reset">Play Again</button>
+   </div>
+
+           
+
+
+
+
+ </div>
+    
+    
+ <script src="script.js"></script>
+ <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+
+</html>
